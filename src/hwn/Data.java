@@ -94,7 +94,7 @@ public class Data {
 	    System.out.println("Masukan pertanyaan yang sesuai untuk jawaban ini");
 	    root.newData(in.nextLine());
 	    
-	    System.out.println("Jawaban :");
+	    System.out.println("Jawaban lain untuk pertanyaan ini :");
 	    // set left child ke jawaban benar
 	    root.addLeftChild(in.nextLine());
 	    // Set right child ke jawaban salah
